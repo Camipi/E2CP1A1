@@ -5,6 +5,93 @@
 	<title>Ejercicio opcional de profundizacion</title>
 	<style type="text/css" media="screen">
 		
+		html {
+			position: relative;
+		} 
+		
+		body {
+			margin: 0;
+		}
+
+		 .header {
+		 	height: 100px;
+		 	background-color: black;
+		 	margin: 0;
+		 	padding: 0;
+		 	position: relative;
+		 }
+
+		 h1 {
+		 	color: white;
+		 	margin: 0;
+		 	padding: 0;
+		 	position: absolute;
+		 	top: 30px;
+		 	left: 50px;
+		 	font-family: Arial;
+		 }
+
+		 .content {
+		 	width: 100%;
+		 	float: left;
+		 	font-family: Arial;
+		 }
+
+		 .menu {
+		 	width: 40%;
+		 	height: 250px;
+		 	background-color: silver;
+		 	padding: 0;
+		 	margin: 0;
+		 	position: absolute;
+		 	top: 100px;
+		 	float: left;
+		 	font-family: Arial;
+		 }
+
+		.menu ul {
+			list-style-type: none;
+		}
+
+		.menu h2 {
+			padding: 20px;
+		}
+
+		 .parrafos {
+		 	width: 60%;
+		 	height: 250px;
+		 	background-color: white;
+		 	position: absolute;
+		 	left: 40%;
+		 	top: 100px;
+		 }
+
+		 .vacio {
+		 	clear: both;
+		 }
+
+		 h3 {
+		 	padding: 20px;
+		 	font-size: 30px;
+		 }
+
+		 .parrafos p {
+		 	padding-left: 20px;
+		 }
+
+		 .footer {
+		 	width: 100%;
+		 	height: 40px;
+		 	background-color: gray;
+		 	position: absolute;
+		 	top: 350px;
+		 }
+
+		 .footer p {
+		 	text-align: center;
+			font-family: Arial;
+		 	color: white;
+		 }
 
 	</style>
 </head>
@@ -12,17 +99,38 @@
 <body>
 
 <header>
-<div></div>
+<div class="header">
+	<h1> Título página </h1>
+</div>
 </header>
 
-<content>
-<div></div>
+<content class="content">
+<div class="menu">
+	<h2> Menú </h2>
+	<ul>
+		<li> Item- 1 </li>
+		<li> Item- 2 </li>
+		<li> Item- 3 </li>
+		<li> Item- 4 </li>
+		<li> Item- 5 </li>
+	</ul>
+</div>
 
-<div></div>
+<div class="parrafos">
+	<h3> Subtítulo </h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse, nostrum eveniet cum, veritatis, non libero aperiam maxime dolorem iusto, enim porro ut. Explicabo cumque at aliquam, sed sapiente dignissimos.
+	</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae vero dolor totam dicta placeat aliquid voluptatum dolores, optio inventore, vel quo nesciunt nihil, at adipisci unde sit suscipit laborum minus.
+	</p>
+</div>
 </content>
 
+<div class="vacio"></div>
+
 <footer>
-<div></div>
+<div class="footer">
+	<p>Todos los derechos reservados</p>
+</div>
 </footer>
 
 </body>
