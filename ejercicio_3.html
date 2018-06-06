@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Flags</title>
+<style>
+html, body { margin: 0; }
+
+.bandera {
+	float: left;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+#espana {
+	width: 35%;
+	border: solid 1px black;
+}
+
+#espana div {
+	height: 30px;
+}
+
+#dinamarca {
+	width: 35%;
+	height: 122px;
+	background-color: red;
+	border: solid 1px black;
+	position: relative;
+}
+
+#emiratos_arabes {
+	width: 35%;
+	height: 122px;
+	background-color: white;
+	border: solid 1px black;
+}
+
+#emiratos_arabes .barra_roja {
+	height: 122px;
+	width: 60px;
+	background-color: red;
+	position: absolute;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#emiratos_arabes .barra_verde {
+	height: 40px;
+	background-color: green;
+}
+
+#emiratos_arabes .barra_blanca {
+	height: 40px;
+	background-color: white;
+}
+
+#emiratos_arabes .barra_negra {
+	height: 40px;
+	background-color: black;
+}
+
+#japon {
+	width: 35%;
+	height: 122px;
+	border: solid 1px black;
+	position: relative;
+}
+
+#japon div {
+	width: 60px;
+	height: 60px;
+	background-color: red;
+	border-radius: 100px;
+	position: absolute;
+	top: 30px;
+	left: 80px;  
+}
+
+</style>
+</head>
+
+<body>
+	<div id="espana" class="bandera">
+		<div style="background-color: red;"></div>
+		<div style="background-color: yellow; height: 60px;"></div>
+		<div style="background-color: red;"></div>
+	</div>
+
+
+	<div id="dinamarca" class="bandera">
+		<div style="background-color: white; height: 20px; position: relative; top: 50px;"></div>
+		<div style="background-color: white; width: 20px; height: 120px; position: absolute; left: 55px; top: 0px;"></div>
+		
+	</div>
+
+
+	<div id="emiratos_arabes" class="bandera">
+		<div class="barra_roja"></div>
+		<div class="barra_verde"></div>
+		<div class="barra_blanca"></div>
+		<div class="barra_negra"></div>
+	</div>
+
+
+	<div id="japon" class="bandera">
+		<div></div>
+	</div>
+
+</body>
+</html>
