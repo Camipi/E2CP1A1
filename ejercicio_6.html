@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Ejercicio 6</title>
+	<style>
+
+		.padre {
+			position: relative;
+		}
+
+		.camion {
+			width: 60px;
+			position: absolute;
+			top: 150px;
+			left: 150px;
+			z-index: -10;
+		}
+
+		.baterias {
+			position: absolute;
+			z-index: -20;
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<div class="padre">
+
+		<div>
+			<img class="camion" src="images/despacho.png" alt="camion de despacho indicando 48 horas">
+		</div>
+		
+		<div>
+			<img class="baterias" src="images/oferta_baterias.png" alt="baterias en oferta">
+		</div>
+
+	</div>
+
+</body>
